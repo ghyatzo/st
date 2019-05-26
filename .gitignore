@@ -1,1 +1,4 @@
 st-patches/
+st
+*.tar.xz
+*.o
