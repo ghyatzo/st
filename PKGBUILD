@@ -4,7 +4,7 @@
 # Maintainer: Camillo Schenone <camillo.schenone@gmail.com>
 pkgname=st-custom-git
 _pkgname=st
-pkgver=0.8.2.r1080.1ea3ecf
+pkgver=0.8.2.r1081.05b7d06
 pkgrel=1
 epoch=1
 pkgdesc="My custom build of suckless' Simple Terminal (st) with a some patches"

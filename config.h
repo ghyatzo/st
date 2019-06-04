@@ -85,7 +85,43 @@ unsigned int tabspaces = 8;
 /* bg opacity */
 float alpha = 0.92;
 
-#include "/home/cshen/.config/st/colors.h"
+/* include default colors */
+const char *colorname[] = {
+
+  /* 8 normal colors */
+  [0] = "#282828", /* black   */
+  [1] = "#CC241D", /* red     */
+  [2] = "#98971A", /* green   */
+  [3] = "#D79921", /* yellow  */
+  [4] = "#458588", /* blue    */
+  [5] = "#B16286", /* magenta */
+  [6] = "#689D6A", /* cyan    */
+  [7] = "#A89984", /* white   */
+
+  /* 8 bright colors */
+  [8]  = "#928374",  /* black   */
+  [9]  = "#FB4934",  /* red     */
+  [10] = "#B8BB26", /* green   */
+  [11] = "#FABD2F", /* yellow  */
+  [12] = "#83A598", /* blue    */
+  [13] = "#D3869B", /* magenta */
+  [14] = "#8EC07C", /* cyan    */
+  [15] = "#E1C3A9", /* white   */
+
+  [255] = 0,
+
+  /* special colors */
+  [256] = "#282828", /* background */
+  [257] = "#e1c3a9", /* foreground */
+  [258] = "#e1c3a9",     /* cursor */
+};
+
+/* Default colors (colorname index)
+ * foreground, background, cursor */
+ unsigned int defaultbg = 256;
+ unsigned int defaultfg = 257;
+ unsigned int defaultcs = 258;
+ unsigned int defaultrcs= 258;
 
 /*
  * Default shape of cursor
